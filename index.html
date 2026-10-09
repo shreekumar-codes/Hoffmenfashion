@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoffmen — Editorial Menswear</title>
+  <meta name="description" content="Hoffmen. Sharp lines. Quiet luxury. A meticulously curated menswear editorial." />
+
+  <!-- Bodoni Moda (editorial voice) + Inter (functional engine) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============================= NAV ============================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-inner">
+      <a class="wordmark" href="#top">HOFFMEN</a>
+      <nav class="nav-menu" id="navMenu" aria-label="Primary">
+        <a href="#collection">The Collection</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#shop">Shop</a>
+        <a href="#journal">Journal</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" data-panel="searchPanel" aria-label="Search" aria-controls="searchPanel" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </button>
+        <button class="icon-btn" data-panel="accountPanel" aria-label="Account" aria-controls="accountPanel" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>
+        </button>
+        <button class="icon-btn" data-panel="bagPanel" aria-label="Shopping bag" aria-controls="bagPanel" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============================= HERO ============================= -->
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="overline">Autumn — Winter 2026 · Look 01</p>
+          <h1 class="display-lg">Sharp Lines.<br />Quiet Luxury.</h1>
+          <p class="hero-lede">
+            Meticulously cut tailoring and considered fabrics for the discerning
+            individual. An understated wardrobe — engineered for authority.
+          </p>
+          <div class="hero-cta">
+            <a href="#shop" class="btn btn-primary">Explore the Collection</a>
+            <a href="#lookbook" class="btn btn-ghost">View Lookbook</a>
+          </div>
+        </div>
+        <div class="hero-image ph ph-a">
+          <img src="https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&fit=crop&w=1400&q=80" alt="Hoffmen AW26 tailored suit editorial" loading="eager" />
+          <span class="ph-tag label-caps">The Sartorial Edit</span>
+        </div>
+      </div>
+      <div class="hero-progress"><span></span></div>
+    </section>
+
+    <!-- ===================== MANIFESTO / JOURNAL ===================== -->
+    <section class="manifesto" id="journal">
+      <div class="manifesto-grid">
+        <p class="overline col-label">Editorial · No. 07</p>
+        <div class="manifesto-body">
+          <h2 class="headline-lg">The wardrobe is a silent language. We tailor it with intent.</h2>
+          <p class="body-lg manifesto-text">
+            Hoffmen is a study in restraint — of negative space, architectural
+            line and the weight of good cloth. Each garment is conceived as a
+            single, deliberate statement, cut from the finest European mills
+            and finished by hand in limited runs.
+          </p>
+          <blockquote class="pull-quote display-lg">Quiet, never voiceless.</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== COLLECTION ===================== -->
+    <section class="collection" id="collection">
+      <div class="section-head">
+        <p class="overline">The Collection</p>
+        <h2 class="headline-md">AW 2026 — Cut to Measure</h2>
+      </div>
+      <div class="cat-grid">
+        <a href="#shop" class="cat-card ph ph-b">
+          <img src="https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?auto=format&fit=crop&w=900&q=80" alt="Tailoring AW26" loading="lazy" />
+          <span class="cat-label label-caps">Tailoring</span>
+        </a>
+        <a href="#shop" class="cat-card ph ph-c">
+          <img src="https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=900&q=80" alt="Overcoats AW26" loading="lazy" />
+          <span class="cat-label label-caps">Overcoats</span>
+        </a>
+        <a href="#shop" class="cat-card ph ph-d">
+          <img src="https://images.unsplash.com/photo-1543807535-eceef0bc6599?auto=format&fit=crop&w=900&q=80" alt="Knitwear AW26" loading="lazy" />
+          <span class="cat-label label-caps">Knitwear</span>
+        </a>
+        <a href="#shop" class="cat-card ph ph-e">
+          <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=900&q=80" alt="Footwear AW26" loading="lazy" />
+          <span class="cat-label label-caps">Footwear</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===================== SHOP ===================== -->
+    <section class="shop" id="shop">
+      <div class="section-head shop-head">
+        <p class="overline">The Shop</p>
+        <h2 class="headline-md">Considered Pieces</h2>
+      </div>
+      <div class="filter-row" id="filterRow" role="group" aria-label="Filter products">
+        <button class="chip is-active" data-filter="all">All</button>
+        <button class="chip" data-filter="tailoring">Tailoring</button>
+        <button class="chip" data-filter="outerwear">Outerwear</button>
+        <button class="chip" data-filter="knitwear">Knitwear</button>
+        <button class="chip" data-filter="footwear">Footwear</button>
+        <button class="chip" data-filter="accessories">Accessories</button>
+      </div>
+      <div class="product-grid" id="productGrid"><!-- product cards injected by script --></div>
+    </section>
+
+    <!-- ===================== EDITORIAL SLIDER ===================== -->
+    <section class="editorial" id="lookbook">
+      <div class="editorial-grid">
+        <div class="editorial-copy">
+          <p class="overline">Lookbook · 04 / 06</p>
+          <h2 class="headline-lg" id="slideTitle">The Grey Ensemble</h2>
+          <p class="body-lg" id="slideBody">
+            Double-breasted wool flannel suit, cotton poplin shirt, and a
+            charcoal overcoat. Tailored for movement, designed for stillness.
+          </p>
+        </div>
+        <div class="editorial-visual ph ph-f" id="slideVisual" role="img" aria-label="Lookbook slide">
+          <img id="slideImg" src="https://images.unsplash.com/photo-1520975954732-35dd22299614?auto=format&fit=crop&w=1200&q=80" alt="Lookbook slide" loading="lazy" />
+          <span class="ph-tag label-caps" id="slideNo">04 / 06</span>
+        </div>
+      </div>
+      <div class="slider-progress" id="sliderProgress" role="tablist" aria-label="Slides"></div>
+    </section>
+
+    <!-- ===================== NEWSLETTER ===================== -->
+    <section class="newsletter">
+      <div class="newsletter-inner">
+        <p class="overline">Correspondence</p>
+        <h2 class="headline-md">Receive the lookbook, first.</h2>
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+          <div class="field">
+            <label class="label-caps" for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" />
+          </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p class="form-note" id="formNote" hidden>Welcome to the correspondence list.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="utility-panel" id="searchPanel" hidden>
+    <div class="utility-panel-inner">
+      <button class="panel-close" type="button" aria-label="Close search">Close</button>
+      <p class="overline">Search Hoffmen</p>
+      <form class="search-form" id="searchForm">
+        <label class="sr-only" for="searchInput">Search the collection</label>
+        <input id="searchInput" type="search" placeholder="Search the collection" autocomplete="off" />
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+      <p class="form-note" id="searchNote" hidden></p>
+    </div>
+  </div>
+
+  <div class="utility-panel" id="accountPanel" hidden>
+    <div class="utility-panel-inner utility-panel-small">
+      <button class="panel-close" type="button" aria-label="Close account panel">Close</button>
+      <p class="overline">Your Account</p>
+      <h2 class="headline-md">Welcome to Hoffmen.</h2>
+      <p class="body-lg panel-copy">Sign in to save your edits and review your orders.</p>
+      <button class="btn btn-primary" type="button" data-account-action>Sign In</button>
+      <p class="form-note" id="accountNote" hidden>Account sign-in will be available at launch.</p>
+    </div>
+  </div>
+
+  <div class="utility-panel" id="bagPanel" hidden>
+    <div class="utility-panel-inner utility-panel-small">
+      <button class="panel-close" type="button" aria-label="Close shopping bag">Close</button>
+      <p class="overline">Your Bag <span id="bagCount">(0)</span></p>
+      <h2 class="headline-md" id="bagMessage">Your bag is waiting.</h2>
+      <div class="bag-items" id="bagItems"></div>
+      <button class="btn btn-primary" type="button" data-checkout hidden>Proceed to Checkout</button>
+      <p class="form-note" id="checkoutNote" hidden>Checkout will open when the collection launches.</p>
+    </div>
+  </div>
+
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p class="wordmark footer-wordmark">HOFFMEN</p>
+        <p class="footer-note">The quiet luxury of considered menswear.</p>
+      </div>
+      <div class="footer-col">
+        <p class="label-caps footer-head">Shop</p>
+        <a href="#shop">Tailoring</a>
+        <a href="#shop">Overcoats</a>
+        <a href="#shop">Knitwear</a>
+      </div>
+      <div class="footer-col">
+        <p class="label-caps footer-head">Maison</p>
+        <a href="#journal">Journal</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#top">About</a>
+      </div>
+      <div class="footer-col">
+        <p class="label-caps footer-head">Care</p>
+        <a href="#top">Shipping</a>
+        <a href="#top">Returns</a>
+        <a href="#top">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="label-caps">© 2026 Hoffmen. All rights reserved.</p>
+      <p class="label-caps">Designed in editorial black &amp; bone.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
